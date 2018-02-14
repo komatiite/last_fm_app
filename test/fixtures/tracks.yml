@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  duration: 1
+  listeners: 1
+  playcount: 1
+  : 
+
+two:
+  name: MyString
+  duration: 1
+  listeners: 1
+  playcount: 1
+  : 

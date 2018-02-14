@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cover: MyString
+  release_date: 2018-02-02 17:22:36
+  listeners: 1
+  playcount: 1
+  artist_id: 1
+
+two:
+  name: MyString
+  cover: MyString
+  release_date: 2018-02-02 17:22:36
+  listeners: 1
+  playcount: 1
+  artist_id: 1
