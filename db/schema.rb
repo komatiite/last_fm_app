@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180202172318) do
+ActiveRecord::Schema.define(version: 20180202220931) do
 
   create_table "album_tags", force: :cascade do |t|
     t.integer "album_id"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(version: 20180202172318) do
     t.integer "artist_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["artist_id"], name: "index_tracks_on_artist_id"
   end
 
 end
