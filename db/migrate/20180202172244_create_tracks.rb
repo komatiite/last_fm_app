@@ -5,7 +5,7 @@ class CreateTracks < ActiveRecord::Migration[5.1]
       t.integer :duration
       t.integer :listeners
       t.integer :playcount
-      t.artist_id :
+      t.integer :artist_id
 
       t.timestamps
     end
